@@ -23,8 +23,7 @@ app.use(bodyParser.json())
 app.use(cors())
 
 //DB config
-// const db = require("./config/keys").mongoURI;
-const db = require('./config/keys').localMongoDB
+const db = require('./config/keys').mongoURI
 
 // Connect to MongoDB
 mongoose
